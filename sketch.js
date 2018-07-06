@@ -21,6 +21,15 @@ function draw() {
   //Erase all canvas. Set the color to white
   background(100);
 
+  //lines
+  stroke(255);
+  line(50,50,width-50,height-50);
+  line(50,50,50,height-50);
+  line(width-50,50,50,height-50);
+  line(50,50,width-50,50);
+  line(50,height-50,width-50,height-50);
+  line(width-50,50,width-50,height-50);
+
   //Top left corner shape position and color
   fill(0, 0, 255);
   ellipse(50, 50, 100, 100);
